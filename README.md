@@ -1,16 +1,12 @@
 # mySQLnodejs
 ## Install
-
-
-
-
-cd C:\wrkNodeJS
-git clone https://github.com/flaviooo/mySQLnodejs
-cd mySQLnodejs
-mkdir dumps
-npm init -y
-npm install dotenv --save 
-node dump.js 
+    cd C:\wrkNodeJS
+    git clone https://github.com/flaviooo/mySQLnodejs
+    cd mySQLnodejs
+    mkdir dumps
+    npm init -y
+    npm install dotenv --save 
+    node dump.js 
 ## Tool import/export DB mySQL Nodejs
 
 * Usage: for export: node dump.js --export
