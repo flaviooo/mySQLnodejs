@@ -30,7 +30,7 @@
               // "--export"
             ],
             "runtimeArgs": [
-            //    "${workspaceFolder}\\etc\\mySQLtool\\dumps\\dump.sql"
+
             ],
             "envFile": "${workspaceFolder}\\etc\\mySQLtool\\.env"
         }
