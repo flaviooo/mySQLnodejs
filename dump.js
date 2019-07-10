@@ -35,15 +35,13 @@ case '--export':
 });
     break;
 case '--import':
-        let importFile  ='';
-
+    let importFile  ='';
     if(myArgs[1]===undefined)
     importFile    = +myArgs[0] || importTo.fileDump;
     else importFile    = myArgs[1] || importTo.fileDump;
     console.log(`Now, importing data to the ${importFile} database`);
     exec(`${importTo.pathMySQLcmd} --protocol=tcp --host=${importTo.host} --password=${importTo.password} --user=${importTo.user} --port=3306 --default-character-set=utf8 --comments  ${importTo.database} < ${importFile}`, (err, stdout, stderr) => {
-        if (err) { console.error(`exec error: ${err}`); return; }
-
+    if (err) { console.error(`exec error: ${err}`); return; }
         console.log(`The import has finished.`);
     }); 
     break;
