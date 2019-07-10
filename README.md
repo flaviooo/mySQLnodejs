@@ -1,4 +1,5 @@
 # mySQLnodejs
+
 ## Install
     cd C:\wrkNodeJS
     git clone https://github.com/flaviooo/mySQLnodejs
@@ -9,6 +10,7 @@
     node dump.js 
 ## Tool import/export DB mySQL Nodejs
 
+* Configure .env file
 * Usage: for export: node dump.js --export
 * Usage: for import: node dump.js --import  -->default value DUMPFILE_IMPORT .env');
 * Usage: for import: node dump.js --import dump.sql -->Path file dumps/');
